@@ -9,6 +9,8 @@
 ## 회로
 
 ## 코드
+
+```bash
 #!/bin/bash
 
 pin=18
@@ -30,3 +32,4 @@ while true; do
   pinctrl set $pin dl
   pin=$((pin + 1))
 done
+```
