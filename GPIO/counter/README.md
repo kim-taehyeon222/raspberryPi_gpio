@@ -1,10 +1,13 @@
 ## 영상 링크
+https://youtu.be/-BAtlQOke2w
 
 ## 과제 설명
 
 ![image](https://github.com/user-attachments/assets/9ba4a49a-aa84-4beb-bb9c-99aba5e74bd3)
 
 ## 회로사진
+
+![count](https://github.com/user-attachments/assets/d36faf96-9fa5-49bc-b086-6aeffa93d401)
 
 ## 코드
 
