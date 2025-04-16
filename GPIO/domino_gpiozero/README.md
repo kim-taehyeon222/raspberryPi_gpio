@@ -8,7 +8,8 @@
 
 
 ## 회로
-![domi](https://github.com/user-attachments/assets/05af6732-84de-47c7-99c0-d49fb588354d)
+
+![회로](https://github.com/user-attachments/assets/24752b77-587b-456b-a55b-4d906afe4426)
 
 
 ## 코드
