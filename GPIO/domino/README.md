@@ -4,7 +4,7 @@
 https://youtu.be/iARiDyatvzQ
 
 ## 과제 설명
-![image](https://github.com/user-attachments/assets/d8e6c858-66ed-4842-bc60-9e593b28cdf2)
+![image](https://github.com/user-attachments/assets/f861db3f-41ae-41a5-b9d8-5762df66d6a2)
 
 
 ## 회로
