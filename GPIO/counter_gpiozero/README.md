@@ -11,40 +11,33 @@ https://youtu.be/-BAtlQOke2w
 
 ## 코드
 
-```bash
-#!/bin/bash
-pin1=18
-pin2=19
-pin3=20
+```python
+from gpiozero import LEDBoard, Button
+from time import sleep
 
-pinctrl set $pin1 op
-pinctrl set $pin2 op
-pinctrl set $pin3 op
+leds = LEDBoard(18, 19, 20, 21)
+button = Button(25)
+
+cnt = 0
+
+def counter(num):
+
+  leds.off()    
+
+  if (num & 8): leds[0].on()
+  if (num & 4): leds[1].on()
+  if (num & 2): leds[2].on()
+  if (num & 1): leds[3].on()
 
 
-while true; do
-  for i in $(seq 0 7); do
-    firstLed=$(((i & 4) >> 2))
-    secondLed=$(((i & 2) >> 1))
-    thirdLed=$((i & 1))
+while True:
+  if (cnt > 15): cnt = 0
 
-    if (($firstLed)); then
-        pinctrl set "$pin1" dh
-    fi
-    if (($secondLed)); then
-       pinctrl set "$pin2" dh
+  if button.is_pressed:
+    sleep(0.3)
+    counter(cnt)
+    print(cnt)
+    cnt += 1
 
-    fi
-    if (($thirdLed)); then
-        pinctrl set "$pin3" dh
-    fi
-    printf "%d %d %d\n" ${firstLed} ${secondLed} ${thirdLed}
-
-    sleep 1
-
-    pinctrl set "$pin1" dl
-    pinctrl set "$pin2" dl
-    pinctrl set "$pin3" dl
-  done
-done
+    
 ```
