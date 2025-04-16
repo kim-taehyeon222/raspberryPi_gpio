@@ -7,7 +7,8 @@
 
 ## 회로사진
 
-![count](https://github.com/user-attachments/assets/d36faf96-9fa5-49bc-b086-6aeffa93d401)
+![회로](https://github.com/user-attachments/assets/0e11fd30-4ab4-43bf-acd5-4f0ac0002dc8)
+
 
 ## 코드
 
