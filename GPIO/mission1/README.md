@@ -1,4 +1,4 @@
-# DOMINO
+# MISSION1
 
 ## 영상링크
 https://youtu.be/pSx9a5qAqPE
